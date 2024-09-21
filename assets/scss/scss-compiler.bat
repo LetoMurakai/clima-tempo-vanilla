@@ -1,0 +1,1 @@
+sass --watch -s compressed main.scss:../css/style.css
