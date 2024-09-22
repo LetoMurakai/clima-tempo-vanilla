@@ -1,0 +1,26 @@
+.weather-section{
+  .current-weather{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 50px;
+    .temperature{
+      font-size: 3.30rem;
+      margin: 23px 0;
+      display: flex;
+      span{
+        font-size: 1.56rem;
+        font-weight: 500;
+        margin: 5px 0 0 2px;
+      }
+    }
+    .description{
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+    .weather-icon{
+      width: 140px;
+      aspect-ratio: 1;
+    }
+  }
+}

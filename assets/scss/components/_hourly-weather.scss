@@ -1,7 +1,26 @@
 .hourly-weather{
+  padding: 16px 25px;
+  border-top: 1px solid #d5ccff;
+  &:hover{
+    .weather-list{
+      scrollbar-color:  #bfbfbf transparent;
+    }
+  }
   .weather-list{
     display: flex;
+    list-style: none;
+    gap: 7px;
+    padding-bottom: 16px;
+    margin-bottom: -16px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
     .weather-item{
+      display: flex;
+      gap: 7px;
+      font-weight: 500;
+      align-items: center;
+      flex-direction: column;
       .weather-icon{
         width: 20px;
         aspect-ratio: 1;

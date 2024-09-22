@@ -31,11 +31,11 @@
       }     
     }
     &:focus-within{
-      color: #7e6ff1;
+      color: $primary-color;
       background-color: #f4f4f4;
       transition: border .3s ease-in;
       .search-input{
-        border-color: #7e6ff1;
+        border-color: $primary-color;
       }
     }
   }
@@ -51,8 +51,8 @@
     border: 1px solid #bebfbf;
     transition: background-color,color .3s ease-out;
     &:hover{
-      color: #7e6ff1;
-      border-color: #7e6ff1;
+      color: $primary-color;
+      border-color: $primary-color;
       background-color: #f4f4f4;
       transition: background-color,color .3s ease-in;
     }
