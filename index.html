@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Clima Tempo - Seu app de clima</title>
 </head>
+
 <body>
-  <h1>Hello World</h1>
+  <main class="weather-app">
+    <div class="container">
+      <!-- Search Section -->
+      <div class="search-section">
+        <div class="input-wrapper">
+          <i data-lucide="search"></i>
+          <input type="search" id="search-input" class="search-input" placeholder="Digite o nome de uma cidade">
+        </div>
+        <button class="location-button">
+          <i data-lucide="map-pin-house" title="my-location">my-location</i>
+        </button>
+      </div>
+      <!-- Weather Section -->
+      <div class="weather-section">
+        <div class="current-weather">
+          <img src="" alt="" class="weather-icon">
+          <h2 class="temperature">20 <span>ºC</span></h2>
+          <p>Parcialmente nublado</p>
+        </div>
+      </div>
+      <!-- Hourly weather forecast list -->
+      <div class="hourly-weather">
+        <ul class="weather-list">
+          <li class="weather-item">
+            <p class="time">00:00</p>
+            <img src="" alt="" class="weather-icon">
+            <p class="temperature">20<span>º</span></p>
+          </li>
+
+          <li class="weather-item">
+            <p class="time">01:00</p>
+            <img src="" alt="" class="weather-icon">
+            <p class="temperature">20<span>º</span></p>
+          </li>
+
+          <li class="weather-item"></li>
+          <p class="time">02:00</p>
+          <img src="" alt="" class="weather-icon">
+          <p class="temperature">20<span>º</span></p>
+          </li>
+
+          <li class="weather-item"></li>
+          <p class="time">03:00</p>
+          <img src="" alt="" class="weather-icon">
+          <p class="temperature">20<span>º</span></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- Lucide Icon -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
-</html>

@@ -1,0 +1,11 @@
+.hourly-weather{
+  .weather-list{
+    display: flex;
+    .weather-item{
+      .weather-icon{
+        width: 20px;
+        aspect-ratio: 1;
+      }
+    }
+  }
+}

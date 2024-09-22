@@ -1,1 +1,18 @@
-@import 'base/reset'
+/* base */
+@import 
+'base/reset',
+'base/typography';
+
+/* layout */
+@import
+'layout/container';
+
+/* components */
+@import
+'components/search-section',
+'components/weather-section',
+'components/hourly-weather';
+
+/* pages */
+@import 
+'pages/weather-app';
